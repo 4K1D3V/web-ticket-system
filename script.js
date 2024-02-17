@@ -1,6 +1,6 @@
 const form = document.getElementById("ticket-form");
 const ticketContainer = document.getElementById("ticket-container");
-const discordWebhookUrl = "https://discord.com/api/webhooks/WEBHOOK_URL"; // Replace with your Discord webhook URL
+const discordWebhookUrl = "https://discord.com/api/webhooks/1208273031600930836/76fXErKxIQTt7PGAz33ZKr0Sl_rIdrf3Y46An6CstMVYbC0kQNoII6H2h9dNZEOFHWGe"; // Replace with your Discord webhook URL
 const replyFormTemplate = document.getElementById("reply-form-template").innerHTML;
 
 form.addEventListener("submit", async (event) => {
